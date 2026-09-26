@@ -1,0 +1,7 @@
+
+[mcp_servers.laravel-boost.tools.record-rule]
+approval_mode = "approve"
+
+[mcp_servers.laravel-boost]
+command = "wsl.exe"
+args = ["/usr/bin/php8.5", "/home/moataz/projects/email-app/artisan", "boost:mcp"]
